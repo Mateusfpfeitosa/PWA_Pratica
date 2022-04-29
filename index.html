@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Museu Nacional</title>
+	<meta charset="utf-8">
+
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Estilo Customizado -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Arquivo de manifesto-->
+	<link rel="manifest" href="manifest.json">
+
+	<!--Chamdas dos icones -->
+	<meta name="mobile-web-app-capable" content="yes">
+  <meta name="msapplication-TileImage" content="assets/img/icon_144.png">
+  <meta name="msapplication-TileColor" content="#31506F">
+  <meta name="theme-color" content="#4D5360" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="PWA Teste">
+
+  <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<div id="container"><!-- Início container -->
+
+		<header><!-- Início header -->
+			<div id="logo">
+				<h1><a href="index.html">Museu Nacional</a></h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Exposições</a></li>
+					<li><a href="#">Pesquisa</a></li>
+					<li><a href="#">Acervo</a></li>
+					<li><a href="#">Vídeos</a></li>
+					<li><a href="#">Fotos</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</nav>
+		</header><!-- Fim header -->
+		<div id="principal"><!--Início Principal-->
+
+			<div id="conteudo"><!--Início Conteudo-->
+				
+				<section id="capa">
+					<img src="imagens/museu.png">
+				</section>
+
+				<section id="postagem">
+					<article id="video">
+						<h3>Vídeo:Conheça o Museu</h3>
+						<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+					</article>
+					<article id="mapa">
+						<h3>Mapa : Encontre o Museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2064455939753!2d-43.22871758520575!3d-22.905755043592432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1643633850964!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+					</article>
+
+					<article id="exposicoes">
+						<h3>Exposições</h3>
+						<ul>
+							<li>
+								<a href="">Os Incetos assustadores</a>
+							</li>
+							<li>
+								<a href="">O Crânio da Luiza, a mulher mais antiga do brasi</a>
+							</li>
+							<li>
+								<a href="">preguiça gigante e Tigre-dente-de-sabre</a>
+							</li>
+							<li>
+								<a href="">Planta no Brasil Central</a>
+							</li>
+							<li>
+								<a href="">Tereza Cristina: A imperatriz Arqueóloga</a>
+							</li>
+							<li>
+								<a href="">Arte com Dinossauros</a>
+							</li>
+							<li>
+								<a href=""><strong>Veja Todos (64)</strong></a>
+							</li>
+						</ul>
+					</article>
+					<article id="historia">
+						<h3>200 Anos De Historia</h3>
+						<p>aliquam fringilla lacus. Suspendisse aliquam, nulla in luctus ultricies, ligula est malesuada ante, sed tempor urna velit at libero. In laoreet tortor ut finibus ullamcorper. Suspendisse lobortis justo nec metus auctor</p>
+						<a href=""><strong>Leia Mais</strong></a>
+					</article>
+					
+				</section>
+
+			</div><!-- Fim Conteudo -->
+
+			<aside><!--Início aside-->
+				<section id="depoimento">
+					<img src="imagens/depoimento.png">
+				</section>
+
+				<section id="visita"><!--Inicio visita-->
+					<h4>Faça uma visita</h4>
+					<form>
+						<fieldset>
+							
+							<legend>Selecione uma data</legend>
+							<label for="data">Data</label>
+							<input class="campo" type="text" name="data" value="dd/mm/aa">
+
+							<label for="qtd">Qtd Pessoas</label>
+							<input class="campo" style="width:30px;" type="text" name="qtd" value="1">
+						</fieldset>
+						<input class="botao" type="submit" value="verificar Disponibilidade">
+
+					</form>
+				</section><!--Fim visita-->
+				<section id="galeria">
+					<h4>Galeria de fotos</h4>
+					<a href="">
+						<img src="imagens/imagem1.jpg" height="93" width="93">
+					</a>
+
+					<a href="">
+						<img src="imagens/imagem2.jpg" height="93" width="93">
+					</a>
+
+					<a href="">
+						<img src="imagens/imagem3.jpg" height="93" width="93">
+					</a>
+
+					<a href="">
+						<img src="imagens/imagem4.jpg" height="93" width="93">
+					</a>
+				</section>
+			</aside><!--Início aside-->
+			<footer>
+			<p>
+				<a href="">Home</a>
+				<a href="">Expósiçoes</a>
+				<a href="">Pesquisa</a>
+				<a href="">Arcevo</a>
+				<a href="">Vídeo</a>
+				<a href="">Contato</a>
+			</p>
+			<p>
+				2019 <a href="">Museu Nacional</a> - Todos os Diritos Reservado
+			</p>
+			</footer>
+		</div><!-- Fim Principal -->
+	</div><!-- Fim container -->
+	<script>
+		let newWorker;
+
+		if ('serviceWorker' in navigator) {
+		  navigator.serviceWorker.register('/service-worker.js').then(reg => {
+			reg.addEventListener('updatefound', () => {
+			  // A wild service worker has appeared in reg.installing!
+			  newWorker = reg.installing;
+			  newWorker.addEventListener('statechange', () => {
+				// Has network.state changed?
+				switch (newWorker.state) {
+				  case 'installed':
+					if (navigator.serviceWorker.controller) {
+					  // new update available
+					}
+					// No update available
+					break;
+				}
+			  });
+			});
+		  });
+		  let refreshing;
+		  navigator.serviceWorker.addEventListener('controllerchange', function () {
+			if (refreshing) return;
+			window.location.reload();
+			refreshing = true;
+		  });
+		}
+	  </script>
+</body>
+</html>
